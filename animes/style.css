@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.bg1 {
+  background-color: teal;
+}
+.bg2 {
+  background-color: blueviolet;
+}
+.bg3 {
+  background-color: cadetblue;
+}
+
+.bg4 {
+  background-color: rosybrown;
+}
